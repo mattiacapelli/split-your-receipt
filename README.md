@@ -37,5 +37,5 @@ Start it
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/mattiacapelli/split-your-receipt/blob/main/LICENSE)
 
