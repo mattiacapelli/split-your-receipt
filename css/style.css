@@ -2,7 +2,7 @@ body {
     background-color: #459F69;
 }
 
-.father {
+.center {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -11,8 +11,8 @@ body {
 
 .container {
     background-color: #59A878;
-    width: 1000px;
-    height: 511px;
+    width: 444px;
+    height: 594px;
     border-radius: 50px;
 }
 
@@ -24,6 +24,13 @@ body {
     border-top: 20px solid transparent;
 }
 
+.center-column {
+    width: 50%;
+    height: 100%;
+    float: center;
+    border-top: 20px solid transparent;
+}
+
 .right-column {
     width: 50%;
     height: 100%;
@@ -31,6 +38,16 @@ body {
     position: absolute;   
     border-left: 515px solid transparent;
     border-top: 138px solid transparent;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.column {
+    text-align: center;
+    border-top: 5px solid transparent;
+
 }
 
 .mytitle {
@@ -71,6 +88,31 @@ body {
 
 .latbtn:hover {
     background-color: #90C7A7;
+    color: white;
+    transition: 500ms ease-in-out;
+    cursor: pointer;
+}
+
+.calcbtn {
+    width: 200px;
+    height: 48px;
+    background: #90C7A7;
+    border-radius: 13px;
+    border: none;
+    color: white;
+
+    margin-bottom: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    transition: 500ms ease-in-out;
+}
+
+.calcbtn:hover {
+    background-color: #459F69;
     color: white;
     transition: 500ms ease-in-out;
     cursor: pointer;
