@@ -17,16 +17,16 @@
             <div class="text-center" style="display: block;" id="input">
                 <p class="mytitle">Split your bill</p>
                 <p class="latsub">Leave a tip</p>
-                    <button class="latbtn" value="false" onclick="getPercentage(this.value)">No</button>
-                    <button class="latbtn" value="5" onclick="getPercentage(this.value)">5%</button>
-                    <button class="latbtn" value="10" onclick="getPercentage(this.value)">10%</button>
+                    <button class="latbtn" id="no" value="false" onclick="getPercentage(this.value); activate(this.id);">No</button>
+                    <button class="latbtn" id="5" value="5" onclick="getPercentage(this.value); activate(this.id);">5%</button>
+                    <button class="latbtn" id="10" value="10" onclick="getPercentage(this.value); activate(this.id);">10%</button>
                     <br>
-                    <button class="latbtn" value="15" onclick="getPercentage(this.value)">15%</button>
-                    <button class="latbtn" value="20" onclick="getPercentage(this.value)">20%</button>
-                    <button class="latbtn" value="25" onclick="getPercentage(this.value)">25%</button>
+                    <button class="latbtn" id="15" value="15" onclick="getPercentage(this.value); activate(this.id);">15%</button>
+                    <button class="latbtn" id="20" value="20" onclick="getPercentage(this.value); activate(this.id);">20%</button>
+                    <button class="latbtn" id="25" value="25" onclick="getPercentage(this.value); activate(this.id);">25%</button>
                     <br>
                 <div class="inpcont">
-                    <input type="text" class="pinput" id="total" placeholder="Total Price" onchange="getTotal()">
+                    <input type="number" class="pinput" id="total" placeholder="Total Price" onchange="getTotal()">
                     <input type="number" class="npinput" id="numpeople" placeholder="N°" onchange="getNumPeople()">
                 </div> 
                 <br>
