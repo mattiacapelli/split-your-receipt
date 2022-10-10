@@ -34,6 +34,15 @@ Start it
 
 - [@mattiacapelli](https://www.github.com/mattiacapelli)
 
+## Support
+<div align="center">
+            <a href="https://www.buymeacoffee.com/mattiacapelli" target="_blank" style="display: inline-block;">
+                <img
+                    src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" 
+                    align="center"
+                />
+            </a></div>
+
 
 ## License
 
