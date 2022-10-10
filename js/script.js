@@ -32,5 +32,19 @@ function calculate() {
 
         console.log("Tip: " + tip);
         console.log("Total Per Person: " + totalPerPerson);
+        document.getElementById('input').style.display = "none";
+        document.getElementById('output').style.display = "block";
+        document.getElementById('result').innerHTML = totalPerPerson.toFixed(2) + " €";
     }
+}
+
+function returnback() {
+    document.getElementById('input').style.display = "block";
+    document.getElementById('output').style.display = "none";
+
+    document.getElementById('total').value = "";
+    document.getElementById('numpeople').value = "";
+    percentage = null;
+    total = null;
+    numpeople = null;
 }

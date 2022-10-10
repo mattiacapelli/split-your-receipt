@@ -14,7 +14,7 @@
 <body>
     <div class="center">
         <div class="container center">
-            <div class="text-center">
+            <div class="text-center" style="display: block;" id="input">
                 <p class="mytitle">Split your bill</p>
                 <p class="latsub">Leave a tip</p>
                     <button class="latbtn" value="false" onclick="getPercentage(this.value)">No</button>
@@ -31,6 +31,14 @@
                 </div> 
                 <br>
                 <button class="calcbtn" onclick="calculate()">Calculate</button>
+            </div>
+        </div>
+        <div class="container center" style="display: none;"id="output">
+            <div class="text-center">
+                <p class="mytitle">Result</p>
+                <p class="latsub">Each person should pay</p>
+                <p class="result" id="result"></p>
+                <p class="returnback" onclick="returnback()">Return to home</p>
             </div>
         </div>
     </div>

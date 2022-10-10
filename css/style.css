@@ -83,7 +83,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    transition: 500ms ease-in-out;
+    transition: 500ms ease-in-out background-color;
 }
 
 .latbtn:hover {
@@ -108,7 +108,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    transition: 500ms ease-in-out;
 }
 
 .calcbtn:hover {
@@ -134,8 +133,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    transition: 500ms ease-in-out;
-
 }
 
 .npinput::-webkit-outer-spin-button,
@@ -164,7 +161,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    transition: 500ms ease-in-out;
 }
 
 .pinput::placeholder {
@@ -177,10 +173,18 @@ body {
 }
 
 .result {
-    width: 415px;
-    height: 235px;
-    background: #B0DAC2;
-    border-radius: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    background-color: #90C7A7;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 75px;
+    color: white;
 }
 
 .resulttitle {
@@ -192,4 +196,21 @@ body {
     text-align: center;    
     color: #59A878;
 
+}
+
+.returnback {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #90C7A7;
+    margin-top: 150px;
+}
+
+.returnback:hover {
+    color: #459F69;
+    transition: 500ms ease-in-out;
+    cursor: pointer;
 }
