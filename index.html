@@ -17,20 +17,20 @@
             <div class="text-center">
                 <p class="mytitle">Split your bill</p>
                 <p class="latsub">Leave a tip</p>
-                    <button class="latbtn" value="false">No</button>
-                    <button class="latbtn" value="5">5%</button>
-                    <button class="latbtn" value="10">10%</button>
+                    <button class="latbtn" value="false" onclick="getPercentage(this.value)">No</button>
+                    <button class="latbtn" value="5" onclick="getPercentage(this.value)">5%</button>
+                    <button class="latbtn" value="10" onclick="getPercentage(this.value)">10%</button>
                     <br>
-                    <button class="latbtn" value="15">15%</button>
-                    <button class="latbtn" value="20">20%</button>
-                    <button class="latbtn" value="25">25%</button>
+                    <button class="latbtn" value="15" onclick="getPercentage(this.value)">15%</button>
+                    <button class="latbtn" value="20" onclick="getPercentage(this.value)">20%</button>
+                    <button class="latbtn" value="25" onclick="getPercentage(this.value)">25%</button>
                     <br>
                 <div class="inpcont">
-                    <input type="text" class="pinput" placeholder="Total Price">
-                    <input type="number" class="npinput" placeholder="N°">
+                    <input type="text" class="pinput" id="total" placeholder="Total Price" onchange="getTotal()">
+                    <input type="number" class="npinput" id="numpeople" placeholder="N°" onchange="getNumPeople()">
                 </div> 
                 <br>
-                <button class="calcbtn">Calculate</button>
+                <button class="calcbtn" onclick="calculate()">Calculate</button>
             </div>
         </div>
     </div>
