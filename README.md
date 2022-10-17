@@ -8,6 +8,10 @@ Simple frontend receipt splitter
 - Fullscreen mode
 - Cross platform
 
+## Inteface
+
+<img src="img/interface.png"></img>
+
 
 ## Run Locally
 
